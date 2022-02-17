@@ -1,0 +1,105 @@
+/*CSS DOCUMENT*/
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; 
+}
+
+header {
+    padding-bottom: .25em;
+    background-color: #e8ffde;
+}
+
+h1 {
+    width: 4em;
+    padding-top: .5em;
+    margin-bottom: .25em;
+}
+
+h2 {
+    color: #154734;
+    font-family: zenon, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: .5em;
+    margin-bottom: .75em;
+}
+
+header, h2, h3, h4, p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+h3 {
+    color:#154734;
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+h2.proximity {
+    margin-bottom: 0.25em;
+}
+
+h4 {
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+    margin: 1em;
+}
+
+ul {
+    margin-bottom: 1.6em;
+}
+
+nav {
+    margin-top: 1em;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #154734;
+    text-decoration: none;
+}
+
+address {
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 1em 0em 2em 1em;
+}
+
+p.spaceafter {
+    margin-bottom: 1.1em;
+}
+
+iframe {
+    filter: grayscale(100%);
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
